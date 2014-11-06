@@ -317,6 +317,10 @@ a.btn .bubble em {
     color: gray;
     font-size: 1em;
 }
+.overlay .modal .inner p.gray.bottom {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
 
 .overlay .modal .bottom {
     -webkit-border-bottom-right-radius: 10px;
