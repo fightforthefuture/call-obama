@@ -317,7 +317,7 @@ a.btn .bubble em {
     color: gray;
     font-size: 1em;
 }
-.overlay .modal .inner p.gray.bottom {
+.overlay .modal .inner p.gray.under {
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
