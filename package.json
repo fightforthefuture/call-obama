@@ -1,0 +1,17 @@
+{
+  "name": "call-obama",
+  "version": "0.0.1",
+  "description": "Time to open up a can of democracy on Obama.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "call-obama"
+  },
+  "author": "Jeff Lyon",
+  "license": "GPLv3",
+  "devDependencies": {
+  }
+}

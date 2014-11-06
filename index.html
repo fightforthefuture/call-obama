@@ -1,0 +1,86 @@
+---
+---
+<html lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+    <script src="//cdn.optimizely.com/js/2116911387.js"></script>
+    <meta name="description" content="Obama can help save Net Neutrality or destroy it -- along with his legacy. I will #CallObama and demand real #netneutrality">
+    <meta name="author" content="Demand Progress and Fight for the Future">
+    <meta property="og:title" content="Obama can help save Net Neutrality or destroy it -- along with his legacy. I will #CallObama and demand real #netneutrality"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.didobamabreakthenet.com/"/>
+    <meta property="og:image" content="https://www.battleforthenet.com/images/share_images/urgent.png"/>
+    <meta property="og:site_name" content="Call the White House!"/>
+    <meta property="fb:admins" content="612663871"/>
+    <meta property="og:description" content="Obama can help save Net Neutrality or destroy it -- along with his legacy. I will #CallObama and demand real #netneutrality"/>
+    <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+    <link href="css/site.css" rel="stylesheet">
+    <title>Did Obama Break the Net?</title>
+    <link rel="stylesheet" href="css/rain.css" type="text/css" />
+    
+    <script type="text/javascript" src="js/mootools-1.2.4-core.js"></script>
+    <script type="text/javascript" src="js/mootools-1.2.4.4-more.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript">
+        $.noConflict();
+    </script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/rain.js"></script>
+    <link rel="icon" type="image/png" href="images/obama.png">
+    <script type="text/javascript">{% include share_tweet_text.js %}</script>
+</head>
+<body>
+    <div id="rain"></div>
+    <div id="main">
+        <div id="content">
+            {% include cta.html %}
+            <form id="phoneForm" class="clear phoneForm"><input id="phone" name="phone" placeholder="Enter your phone number & grab the script"/><button type="button" id="call_button">Call the White House!</button></form>
+            {% include disclosure.html %}
+            <a class="btn facebook" target="_blank" href="https://www.facebook.com/sharer.php?u=https://www.didobamabreakthenet.com">Share on Facebook</a>
+            <a class="btn twitter main" target="_blank" href="#">Share on Twitter</a>
+            <div class="clear"></div>
+            
+            <hr/>
+            <a href="https://demandprogress.com/" target="_blank"><img class="logo" src="images/dp_logo.png"/></a>
+            <a href="https://www.fightforthefuture.org/" target="_blank"><img class="logo" src="images/fftf_logo.png"/></a>
+        </div>
+    </div>
+    <div class="overlay">
+        <div class="modal">
+            <div class="inner">
+                {% include call_modal_top.html %}
+                {% include call_script.html %}
+
+                <a class="btn facebook" target="_blank" href="https://www.facebook.com/sharer.php?u=https://www.didobamabreakthenet.com">Share on Facebook</a>
+                <a class="btn twitter" target="_blank" href="https://twitter.com/intent/tweet?hashtags=CallTheFCC&text=&related=fightfortheftr">
+                    <div class="bubble">
+                        Tweet using hashtag <em>#CallTheFcc</em> to be featured on our Twitter feed!
+                        <div class="arrow-down"></div>
+                    </div>
+                    Share on Twitter
+                </a>
+                <div class="bottom">
+                    <form id="emailForm" class="clear emailForm" action="https://queue.fightforthefuture.org/action" method="POST"><input type="hidden" name="guard" value=""/><div style="display: none;"><label for="hp_enabled"><input type="checkbox" checked="checked" id="hp_enabled" name="hp_enabled" /> Do not uncheck this box</label><label for="hp_disabled"><input type="checkbox" id="hp_disabled" name="hp_disabled" /> Do not check this box</label></div><input type="hidden" name="tag" value="call-obama"/><input type="hidden" name="org" value="fftf_dp"/><div class="thanks">Thanks! We'll be in touch!</div><div id="email_form_fields"><input id="email" name="member[email]" placeholder="Enter your email to stay in touch"/><button type="button" id="email_button">Subscribe</button></div></form>
+                    <p class="disclosure"><a href="http://www.demandprogress.org" target="_blank">Demand Progress</a> and <a href="https://www.fightforthefuture.org" target="_blank">Fight for the Future</a> will contact you with campaign updates. <a href="https://www.battleforthenet.com/privacy" target="_blank">Privacy Policy</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+      var _sf_async_config = { uid: 47331, domain: 'callthefcc.com', useCanonical: true };
+      (function() {
+        function loadChartbeat() {
+          window._sf_endpt = (new Date()).getTime();
+          var e = document.createElement('script');
+          e.setAttribute('language', 'javascript');
+          e.setAttribute('type', 'text/javascript');
+          e.setAttribute('src','//static.chartbeat.com/js/chartbeat.js');
+          document.body.appendChild(e);
+        };
+        var oldonload = window.onload;
+        window.onload = (typeof window.onload != 'function') ?
+          loadChartbeat : function() { oldonload(); loadChartbeat(); };
+      })();
+    </script>
+</body>
+</html>
