@@ -54,12 +54,18 @@ body {
 }
 h1 {
     color: #163a79;
-    font-size: 3em;
+    font-size: 2.2em;
     margin-bottom: 30px;
 }
 h1.MEGA {
-    font-size: 4em;
+    font-size: 4.5em;
     text-transform: uppercase;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+h4 {
+    color: gray;
+    margin: 1em 0em 2em 0em;
 }
 hr {
     border: 0px;
