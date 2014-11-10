@@ -18,7 +18,7 @@ a {
     color: #163a79;
 }
 div.blur {
-    opacity: .55;
+    display: none;
 }
 #warning {
     position: fixed;
